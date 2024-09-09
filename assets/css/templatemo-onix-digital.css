@@ -2033,3 +2033,143 @@ p {
   line-height: 30px;
   color: #2a2a2a;
 }
+
+
+
+.bdge {
+  height: 21px;
+  background-color: orange;
+  color: #fff;
+  font-size: 21px;
+  padding: 8px;
+  border-radius: 4px;
+  line-height: 3px;
+}
+
+.comments {
+  text-decoration: underline;
+  text-underline-position: under;
+  cursor: pointer;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  margin-top: 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.hit-voting:hover {
+  color: blue;
+}
+
+.hit-voting {
+  cursor: pointer;
+}
+
+
+/* Ajuste do tamanho das imagens de perfil em toda a seção de comentários */
+.add-comment-section img,
+.commented-user img {
+    width: 68px; /* Define a largura da imagem de perfil */
+    height: 58px; /* Define a altura da imagem de perfil */
+    object-fit: cover; /* Garante que a imagem mantenha suas proporções */
+    border-radius: 100%; /* Garante que a imagem seja arredondada */
+    margin-right: 15px; /* Aumenta o espaçamento entre a imagem e o comentário */
+}
+
+/* Ajuste de espaçamento e alinhamento */
+.add-comment-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.add-comment-section input {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.commented-section {
+    margin-top: 15px;
+}
+
+.comment-text-sm {
+    margin-top: 10px;
+}
+
+.reply-section {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.voting-icons i {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.voting-icons span {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.dot {
+    height: 4px;
+    width: 4px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+/* Ajuste das informações de tempo e replies */
+.commented-user span {
+  margin-left: 5px;  /* Espaçamento entre o nome e o tempo */
+  margin-right: 10px; /* Espaçamento entre o tempo e os outros elementos */
+  font-size: 24px; /* Tamanho menor para a data */
+  color: #777; /* Cor mais clara para o tempo */
+}
+
+/* Ajuste dos ícones e contadores */
+.reply-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.voting-icons {
+  display: flex;
+  align-items: center;
+}
+
+.voting-icons i {
+  cursor: pointer;
+  margin-right: 5px; /* Espaço entre ícones de upvote/downvote */
+}
+
+.voting-icons span {
+  margin-left: 5px;
+  margin-right: 10px; /* Espaçamento entre os números e ícones */
+  font-size: 16px; /* Ajuste no tamanho da fonte */
+  color: #555; /* Cor mais suave */
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 8px; /* Espaço entre os pontos */
+}
+
+.reply-section h6 {
+  margin-left: 10px; /* Espaçamento entre os ícones e a palavra "Reply" */
+  font-size: 17px; /* Tamanho da fonte para o texto "Reply" */
+  color: #007bff; /* Cor do link de reply */
+  cursor: pointer; /* Cursor de ponteiro para indicar que é clicável */
+}
